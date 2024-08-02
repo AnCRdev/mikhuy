@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    android:padding="10dp"
+
+    android:layout_margin="4dp"
+    android:layout_marginLeft="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/meal_image"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/meal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+    android:id="@+id/add_button"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+
+    android:background="@drawable/button_custom_oranje"
+    app:backgroundTint="@null"
+    android:gravity="center_horizontal"
+    android:padding="2dp"
+    android:text="Agregar"
+    android:textColor="@color/white" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/heart_button"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="8dp"
+
+    android:background="@drawable/ic_heart"
+    app:backgroundTint="@null"
+    android:gravity="center_horizontal"
+    android:padding="3dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  sign_in colors  -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#F8C595</color>
+    <color name="purple_500">#F8C595</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="_bg__sign_in_ek2_color">#FDF6F6</color>
+    <color name="_bg__group_3_ek1_color">#000000</color>
+    <color name="ellipse_4_color">#F8C595</color>
+    <color name="sign_up_color">#080808</color>
+    <color name="rectangle_2_color">#FFFFFF</color>
+    <color name="colorLetra1">#4A3316</color>
+    <color name="colorIconos">#F59546</color>
+    <color name="colorFondo">#F8C595</color>
+    <color name="botonesColor">#E95322</color>
+    <color name="botonColorSegundo">#FFDECF</color>
+    <color name="fondoColor">#F8C595</color>
+    <color name="colorFondoAlternativa">#F4F4F4</color>
+</resources>

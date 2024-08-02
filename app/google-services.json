@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "998678518948",
+    "firebase_url": "https://restaurante-804c5-default-rtdb.firebaseio.com",
+    "project_id": "restaurante-804c5",
+    "storage_bucket": "restaurante-804c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998678518948:android:f5c5aa896b011fd7b99a31",
+        "android_client_info": {
+          "package_name": "com.example.myappdecomida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998678518948-dsgipkd88us0e4rpp18gjrimptlefbkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYe-dzdNWWxn4BowT6UjXuKgLFEfLnntw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998678518948-dsgipkd88us0e4rpp18gjrimptlefbkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

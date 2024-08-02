@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.myappdecomida.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_carritoCompras"
+            app:destination="@id/carritoCompras" />
+        <action
+            android:id="@+id/action_home2_to_comida"
+            app:destination="@id/comida" />
+    </fragment>
+    <fragment
+        android:id="@+id/carritoCompras"
+        android:name="com.example.myappdecomida.CarritoCompras"
+        android:label="fragment_carrito_compras"
+        tools:layout="@layout/fragment_carrito_compras" >
+
+        <action
+            android:id="@+id/action_carritoCompras_to_confirmarPedido"
+            app:destination="@id/confirmarPedido" />
+        <action
+            android:id="@+id/action_carritoCompras_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmarPedido"
+        android:name="com.example.myappdecomida.ConfirmarPedido"
+        android:label="fragment_confirmar_pedido"
+        tools:layout="@layout/fragment_confirmar_pedido" >
+        <action
+            android:id="@+id/action_confirmarPedido_to_pago"
+            app:destination="@id/pago" />
+        <action
+            android:id="@+id/action_confirmarPedido_to_carritoCompras"
+            app:destination="@id/carritoCompras" />
+    </fragment>
+    <fragment
+        android:id="@+id/pago"
+        android:name="com.example.myappdecomida.Pago"
+        android:label="fragment_pago"
+        tools:layout="@layout/fragment_pago" >
+        <action
+            android:id="@+id/action_pago_to_confirmacion"
+            app:destination="@id/confirmacion" />
+        <action
+            android:id="@+id/action_pago_to_confirmarPedido"
+            app:destination="@id/confirmarPedido" />
+        <action
+            android:id="@+id/action_pago_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmacion"
+        android:name="com.example.myappdecomida.Confirmacion"
+        android:label="fragment_confirmacion"
+        tools:layout="@layout/fragment_confirmacion" >
+        <action
+            android:id="@+id/action_confirmacion_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/comida"
+        android:name="com.example.myappdecomida.comida.Comida"
+        android:label="Comida"
+        tools:layout="@layout/fragment_comida" >
+        <action
+            android:id="@+id/action_comida_to_mealDetailFragment"
+            app:destination="@id/mealDetailFragment" >
+            <argument
+                android:name="strMeal"
+                app:argType="string" />
+            <argument
+                android:name="strMealThumb"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/mealDetailFragment"
+        android:name="com.example.myappdecomida.MealDetailFragment"
+        android:label="Meal Detail"
+        tools:layout="@layout/fragment_meal_detail" >
+        <argument
+            android:name="meal"
+            app:argType="com.example.myappdecomida.comida.Meal" />
+        <action
+            android:id="@+id/action_mealDetailFragment_to_comida"
+            app:destination="@id/comida" />
+    </fragment>
+
+</navigation>

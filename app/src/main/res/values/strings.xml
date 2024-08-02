@@ -1,0 +1,13 @@
+<resources>
+    <!--  sign_in strings  -->
+    <string name="app_name">Mikhuy</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="sign_up_string">Iniciar Sesión</string>
+    <string name="full_name_string">Contraseña</string>
+    <string name="email_string">Correo Electrónico</string>
+    <string name="no_tienens_una_cuenta__reg_strate_aqu__string">No tienens una cuenta? Regístrate Aquí</string>
+    <string name="olvidaste_tu_contrase_a__haz_click_aqu__string">Olvidaste tu contraseña? Haz click Aquí</string>
+    <string name="bienvenido_de_nuevo__string">Bienvenido de nuevo!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
